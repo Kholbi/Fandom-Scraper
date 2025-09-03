@@ -30,7 +30,7 @@ Jalankan skrip dari terminal dengan menyertakan tautan halaman Fandom sebagai ar
       python main.py link="https://example.fandom.com/wiki/Character_Name"
 
 # 2.  Mode Interaktif
-      Jika Anda menjalankan skrip tanpa argumen link, skrip akan meminta Anda untuk memasukkan tautan halaman secara interaktif:
+Jika Anda menjalankan skrip tanpa argumen link, skrip akan meminta Anda untuk memasukkan tautan halaman secara interaktif:
 
       python main.py
 
