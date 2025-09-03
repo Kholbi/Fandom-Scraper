@@ -63,7 +63,10 @@ def extract_introduction(target_content_div, main_page_soup_for_specific_div=Non
                     continue
                 text = element.get_text(separator=' ', strip=True)
                 if text:
-                    extracted_content.append(text)
+                    if not text.startswith('"'):
+                        extracted_content.append(f'"{text}"')
+                    else:
+                        extracted_content.append(text)
             elif isinstance(element, NavigableString) and element.strip():
                 extracted_content.append(element.strip())
         return extracted_content
