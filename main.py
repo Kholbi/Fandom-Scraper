@@ -33,9 +33,9 @@ def main():
         sys.exit(1)
 
     # Process and write output
-    output_lines = process_fandom_page(main_soup, intro_soup, intro_link, char_name)
+    output_lines = process_fandom_page(main_soup, intro_soup, intro_link, char_name, link)
 
-    with open("fandom_output.py", "w", encoding="utf-8") as f:
+    with open("output/fandom_output.py", "w", encoding="utf-8") as f:
         f.writelines(output_lines)
 
     print("Output berhasil ditulis ke fandom_output.py")

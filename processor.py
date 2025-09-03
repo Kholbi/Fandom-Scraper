@@ -33,7 +33,7 @@ section_headline_map = {
     "Trivia": "Trivia",
 }
 
-def process_fandom_page(main_soup, intro_soup, intro_link, char_name):
+def process_fandom_page(main_soup, intro_soup, intro_link, char_name, link):
     """
     Orchestrates the process of extracting content from the Fandom page.
     """
