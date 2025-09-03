@@ -1,6 +1,6 @@
 from bs4 import Tag, NavigableString
 import re
-from utils import is_stop_tag
+from modules.utils import is_stop_tag
 
 def extract_and_format_infobox(target_content_div):
     """Extracts and formats the content of a portable-infobox."""

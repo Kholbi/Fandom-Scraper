@@ -1,4 +1,4 @@
-from section_extractors import (
+from modules.section_extractors import (
     extract_and_format_infobox,
     extract_introduction,
     extract_relationships,

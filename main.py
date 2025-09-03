@@ -1,8 +1,8 @@
 import sys
 import requests
 from bs4 import BeautifulSoup, Tag
-from processor import process_fandom_page
-from utils import get_fandom_link, fetch_page, find_title
+from modules.processor import process_fandom_page
+from modules.utils import get_fandom_link, fetch_page, find_title
 
 # Author :    Qiaoo
 
