@@ -23,7 +23,7 @@ Anda juga perlu menginstal dependensi yang diperlukan. Anda bisa melakukannya de
 
 `pip install -r requirements.txt`
 
-#Cara Penggunaan
+# Cara Penggunaan
 # 1.  Melalui Command Line
       Jalankan skrip dari terminal dengan menyertakan tautan halaman Fandom sebagai argumen:
 
